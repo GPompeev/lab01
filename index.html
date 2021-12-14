@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gosha</title>
+     <style>
+         .container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ 
+.header{
+    background: #F1F1F2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+ 
+.nav_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.nav_input{
+    width: 50%;
+    border-radius: 10px;
+}
+ 
+.nav_btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: #D4DDE1;
+}
+ 
+.nav_btn:hover{
+    background: #1995AD;
+}
+ 
+ 
+ 
+.profile{
+    background-color: #FFE7DC;
+    padding: 60px 0px 25px 0;
+    border-radius: 5px;
+}
+ 
+.img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+ 
+ 
+.name{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+ 
+.status{
+    display: block;
+    text-align: center;
+    margin-top: 0;
+}
+ 
+.btns{
+    display: block;
+    text-align: center;
+}
+ 
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: #D4DDE1;
+}
+ 
+.btn:hover{
+    background: #1995AD;
+}
+ 
+.info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background: #F1F1F2;
+    border-radius: 5px;
+}
+ 
+.number{
+    text-align: center;
+}
+ 
+.well{
+    margin-top: 10px;
+    background-color:	#D4DDE1;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+ 
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+ 
+.notes{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+ 
+.note{
+    margin: 25px 0px;
+}
+ 
+.note:not(:last-child){
+    border-bottom: 1px solid #71726E;
+}
+ 
+.time_note{
+    color: #71726E;
+    margin-bottom: 5px;
+}
+ 
+.descr_note{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+ 
+.img_note{
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+     </style>
+</head>
+<body>
+ 
+    <header class="header container">
+        <div class="nav">
+            <div class="nav_title">
+                NeVKontakte 
+            </div>
+            <input type="text" class="nav_input" placeholder="поиск по сайту">
+            <button class="nav_btn">
+                выйти
+            </button>
+        </div>
+    </header>
+ 
+    <section class="profile container">
+            <div class="auth">
+                <img src="https://i.pinimg.com/originals/7e/c2/58/7ec25883b6b0d982e2f081b7a733ab7d.jpg" alt="" class="img">
+                <p class="name">
+                    Георгий Помпеев
+                </p>
+                <p class="status">
+                    online
+                </p>
+            </div>
+            <div class="btns">
+                <button class="btn">добавить в друзья</button>
+                <button class="btn">написать сообщение</button>
+            </div>   
+    </section>
+ 
+    <section class="info container">
+            <div class="friens">
+                <div class="number">120</div>
+                <div class="word">ДРУЗЕЙ</div>
+            </div>
+            <div class="friens">
+                <div class="number">100</div>
+                <div class="word">ФОТОГРАФИЙ</div>
+            </div>
+            <div class="friens">
+                <div class="number">872</div>
+                <div class="word">ПЕСЕН</div>
+            </div>
+ 
+    </section>
+ 
+    <section class="well container">
+        <div class="title">
+            Записи на странице Геогрия: 
+        </div>
+ 
+        <div class="notes">
+ 
+            <div class="note">
+                <div class="time_note">
+                    сегодня в 8:17
+                </div>
+                <div class="descr_note">
+                    Ура какое сегодня красивое солнце!
+                </div>
+ 
+                <img src="https://оценика.рф/sites/default/files/works/konkurs/xgpw-2miydc.jpg" alt="" class="img_note">
+            </div>
+ 
+            <div class="note">
+                <div class="time_note">
+                    20 ноября в 17:20
+                </div>
+                <div class="descr_note">
+                    Минутка юмора, мем вам в ленту!
+                </div>
+ 
+                <img src="https://cs8.pikabu.ru/post_img/2017/05/17/10/og_og_149504021524876684.jpg" alt="" class="img_note">
+            </div>
+ 
+            <div class="note">
+                <div class="time_note">
+                    16 ноября в 21:13
+                </div>
+                <div class="descr_note">
+                    С друзьями поехали в путешествие, всем добра!
+                </div>
+ 
+                <img src="https://cs5.pikabu.ru/post_img/big/2015/06/26/4/1435297984_555687249.jpg" alt="" class="img_note">
+            </div>
+ 
+            <div class="note">
+                <div class="time_note">
+                    10 ноября в 8:12
+                </div>
+                <div class="descr_note">
+                   Хочется закончить семестр без долгов, вот бы 100% за лабу...
+                </div>
+ 
+                <img src="https://pbs.twimg.com/media/Evlv-OeWQAIMFCE.jpg" alt="" class="img_note">
+            </div>
+ 
+        </div>
+    </section>
+</body>
+</html>
